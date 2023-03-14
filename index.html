@@ -122,6 +122,21 @@
         {
           background-color: rgb(3, 201, 151);
         }
+        
+        #bienvenida
+        {
+          background-color: #e2cef8ce;
+        }
+
+        #ttl_bienvenida
+        {
+          color:#4a16aa
+        }
+
+        #btn_bienvenida
+        {
+          background-color: #b640fad8;
+        }
     </style>
 </head>
 
@@ -368,6 +383,39 @@
 </div> 
 
 <div id="contenido_secundario" class="logged-in pt-0">
+    
+    <!--MENSAJE BIENVENIDA-->
+<div class="logged-in col-6 d-grid gap-2 mx-auto pt-3">
+  <button type="button" class="btn fw-bolder border-2 rounded-pill border-white text-light" id="btn_bienvenida" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    ¡Bienvenidx a World Experience!
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content" id="bienvenida">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">WORLD EXPERIENCE</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h3 id="ttl_bienvenida" class="text-center fw-bold">¡Gracias por hacer parte de nuestra red social!</h3>
+          <p class="mt-2 text-center">Nos hace ilusión tenerte aquí. World Experience busca brindarle a sus usuarios la mejor experiencia
+            y al mismo tiempo crear un espacio seguro para todas aquellas personas viajeras que quieren contar sus anécdotas 
+            alrededor del mundo.
+          </p>
+          <img id="logo2" src="https://images.vexels.com/media/users/3/142911/isolated/preview/2112bff2f935dd522b5d1b2d082cd045-logotipo-de-playa-isla-paisaje.png" alt="Logo" width="95" height="95" class="mx-auto d-block ">
+          <p class="fst-italic fw-semibold fs-5 text-center">"Conoce el mundo desde la comodidad de tu casa"</p>
+        </div>
+        <div class="modal-footer">
+          <p class="text-center "> 
+            Recuerda que nuestra red social es segura, tu informacion personal no será compartida con terceros</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
 <div class="row">
 
 <!--COLLAGE-->
